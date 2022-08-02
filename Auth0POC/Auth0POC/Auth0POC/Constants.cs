@@ -3,6 +3,7 @@
     public static class Constants
     {
         public const string ClientId = "FQ0fFfN8fg8zNizv5sOB2r4tbIcBqXv6";
+        public const string Domain = "dev-7xpcooft.eu.auth0.com";
 
         public static class ConnectionName
         {

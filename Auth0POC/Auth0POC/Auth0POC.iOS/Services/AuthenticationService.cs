@@ -1,13 +1,10 @@
 ﻿using Auth0.OidcClient;
-using Auth0POC.Droid.Services;
 using Auth0POC.Services;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-[assembly: Dependency(typeof(AuthenticationService))]
-namespace Auth0POC.Droid.Services
+namespace Auth0POC.iOS.Services
 {
     public class AuthenticationService : IAuthService
     {
